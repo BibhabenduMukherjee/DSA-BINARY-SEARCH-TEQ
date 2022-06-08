@@ -28,7 +28,9 @@ class Solution {
 public:
 
     // comparator sort function 
-    // if [a1,b1], and [a2,b2] are the two list if we went to sort this two list this function will operate like this ---> first compare a1 and a2 if they are not equal (a1>a2) -- convert it like [a2,b2] , [a1 , b1 ] because a2 is small and it a1==a2 then compare with second b1 and b2
+    // if [a1,b1], and [a2,b2] are the two list if we went to sort this two 
+    //list this function will operate like this ---> first compare a1 and a2 if they
+    //are not equal (a1>a2) -- convert it like [a2,b2] , [a1 , b1 ] because a2 is small and it a1==a2 then compare with second b1 and b2
     
     static bool comp(vector<int>& a, vector<int>& b) {
         if(a[0] == b[0])
